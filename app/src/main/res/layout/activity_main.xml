@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A3B9B4"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="289dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#F8F7F5"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="text"
+        android:text="Name"
+        android:textColor="#D1FAEE"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:text="Дневник путешествий" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="387dp"
+        android:layout_height="139dp"
+        app:srcCompat="@drawable/ist"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="361dp"
+        android:layout_height="166dp"
+        app:srcCompat="@drawable/item_478"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="401dp"
+        android:layout_height="139dp"
+        android:fontFamily="serif"
+        android:text="Климат Турции очень разнообразный: здесь бывает и снег, как в январе в центральной России, и жара +30 градусов, как в июле. Центральная Турция — область континентального климата с прохладной снежной зимой, а на западном и южном побережьях страны царят субтропики. Здесь тепло и солнечно с ранней весны до поздней осени."
+        android:textAlignment="center"
+        android:textColor="#388CA0"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="398dp"
+        android:layout_height="134dp"
+        android:fontFamily="serif"
+        android:text="Каждый год Красное море Египта манит миллионы туристов со всего мира. Его курорты сочетают в себе ровные песчаные пляжи, кристальное и тёплое море, километры коралловых рифов, историю древней цивилизации, наследие ЮНЕСКО, выгодные цены и качественный отдых. Здесь можно совмещать купание в море с дайвингом, интересными экскурсиями по чудесам природы и к древним пирамидам."
+        android:textAlignment="center"
+        android:textColor="#D6CE3A"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="526dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
